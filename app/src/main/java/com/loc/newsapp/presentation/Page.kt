@@ -5,7 +5,7 @@ import com.loc.newsapp.R
 
 data class Page(
     val title:String,
-    val desvription:String,
+    val description:String,
     @DrawableRes val image: Int
 )
 
