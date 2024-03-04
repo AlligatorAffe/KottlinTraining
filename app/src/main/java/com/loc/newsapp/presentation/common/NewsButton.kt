@@ -23,7 +23,10 @@ fun NewsButton(
     ),
         shape = RoundedCornerShape(size = 6.dp)
     ) {
-        Text(text = text, style = MaterialTheme.typography.labelMedium.copy(fontWeight = FontWeight.SemiBold))
+        Text(text = text, style =
+        MaterialTheme.typography
+            .labelMedium
+            .copy(fontWeight = FontWeight.SemiBold))
         
     }
 }
