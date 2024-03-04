@@ -1,4 +1,9 @@
 package com.loc.newsapp
 
-class NewsApplication {
+import android.app.Application
+import dagger.hilt.android.HiltAndroidApp
+
+
+@HiltAndroidApp
+class NewsApplication : Application() {
 }

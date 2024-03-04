@@ -18,8 +18,7 @@ class LocalUserManagerImpl (
 
 ): LocalUserManager{
     override suspend fun saveAppEntry(){
-        context.dataStore.edit { 
-            settings-> 
+        context.dataStore.edit { settings->
             settings[PreferencesKeys.APP_ENTRY] = true
         }
     }
